@@ -1,0 +1,104 @@
+/*Removes default margin & padding */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: rgb(18, 38, 59);
+    /*Centers items*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*Custom font*/
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/*Matching font for buttons*/
+button {
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
+/*Calculator background styling*/
+.calcBack {
+    width: 400px;
+    background-color: turquoise;
+    height: 640px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.answerBox {
+    /*Answer box styling*/
+    background-color: rgb(217, 255, 0);
+    border: 1px solid rgb(114, 133, 6); 
+    margin-top: 25px;
+    width: 85%; /*85% to leave some room on edges*/
+    height: 80px;
+    border-radius: 50px;
+    
+    /*Text Styling & Positioning*/
+    text-align: center;
+    line-height: 80px;
+    font-size: 2rem;
+    overflow: auto;
+}
+
+/* Container for all the buttons on the calc. Creates grid with 4 buttons on each
+   row. Width set to 95% to leave some space for the sides. */
+.container {
+    display: grid;
+    margin-top: 15px;
+    grid-template-columns: repeat(4, 1fr);   
+    gap: 10px; 
+    padding-top: 10px;
+    width: 95%;  
+}
+
+/* Aspect ratio sets width = height, border-radius round edges. */
+.container > button {
+    background-color: rgb(217, 255, 0);
+    text-align: center;
+    aspect-ratio: 1 / 1;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 1px solid rgb(114, 133, 6); 
+    border-radius: 2.5rem;
+}
+
+/*Simple Animation*/
+button:hover {
+     transition: .5s;
+     opacity: .7;
+}
+
+
+/*Styling for slider*/
+.scaleContainer {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    background-color: turquoise;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.slider {
+    margin-left: 5px;
+}
