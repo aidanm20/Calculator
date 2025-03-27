@@ -1,8 +1,5 @@
 # Calculator
-This is a simple, interactive calculator built using HTML, CSS, and JavaScript. The calculator provides basic arithmetic operations and additional functionalities like square and square root calculations.
-
-## Link
-(https://aidanm20.github.io/Calculator.github.io/)
+This is a simple, interactive calculator built using HTML, CSS, and JavaScript. The calculator provides basic arithmetic operations and additional functionalities like square and square root calculations. Link: https://aidanm20.github.io/Calculator.github.io/
 
 ## Features
 Supports addition, subtraction, multiplication, and division.
