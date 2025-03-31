@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background-color: rgb(18, 38, 59);
+    background-color: rgb(4, 26, 28);
     /*Centers items*/
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@ button {
 /*Calculator background styling*/
 .calcBack {
     width: 400px;
-    background-color: turquoise;
+    background-color: rgb(2, 86, 77);
     height: 640px;
     border-radius: 50px;
     display: flex;
@@ -44,8 +44,8 @@ button {
 
 .answerBox {
     /*Answer box styling*/
-    background-color: rgb(217, 255, 0);
-    border: 1px solid rgb(114, 133, 6); 
+    background-color: rgb(255, 221, 0);
+    border: 2px solid rgb(114, 133, 6); 
     margin-top: 25px;
     width: 85%; /*85% to leave some room on edges*/
     height: 80px;
@@ -71,14 +71,14 @@ button {
 
 /* Aspect ratio sets width = height, border-radius round edges. */
 .container > button {
-    background-color: rgb(217, 255, 0);
+    background-color: rgb(255, 221, 0);
     text-align: center;
     aspect-ratio: 1 / 1;  
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.5rem;
-    border: 1px solid rgb(114, 133, 6); 
+    border: 2px solid rgb(114, 133, 6); 
     border-radius: 2.5rem;
 }
 
@@ -94,7 +94,7 @@ button:hover {
     display: flex;
     flex-direction: row;
     margin-top: 30px;
-    background-color: turquoise;
+    background-color: rgb(2, 86, 77);
     padding: 10px;
     border-radius: 10px;
 }
